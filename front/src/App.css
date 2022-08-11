@@ -1,0 +1,73 @@
+.mainPage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  position: relative;
+  background-color: rgb(255, 200, 209);
+  width: 1360px;
+  height: 135px;
+  margin: 24px;
+  align-items: center;
+  font-size: 42px;
+  border-radius: 20px;
+}
+
+main {
+  display: flex;
+  width: 1360px;
+  height: 800px;
+  margin: 0px 24px 20px 24px;
+}
+
+.sideFilterBar {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  padding-top: 50px;
+  margin-right: 35px;
+
+}
+
+.filterButton{
+  background-color: rgb(255, 200, 209);
+  border: none;
+  font-size: 25px;
+  margin: 38px 0px;
+  width: 175px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 1150px;
+
+}
+
+.todoHeader {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.grayLine{
+  height: 5px;
+  border-radius: 3px  m;
+  background-color: lightgray;
+  margin-bottom: 30px;
+}
+
+.todoItemContainer {
+  display: flex;
+  height: 665px;
+  border-radius: 15px;
+  background-color:rgb(255, 200, 209);
+}
